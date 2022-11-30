@@ -1,0 +1,79 @@
+body{
+    background-color: mistyrose;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    background-attachment: fixed;
+}
+.container{
+    max-width: 400px;
+    margin: 15vh auto 0 auto;
+    box-shadow: 0px 0px 0px 5px #4f6c6c ;
+    
+    
+    
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 20px 8px;
+    font-size: 25px;
+    background-color: #4f6c6c;
+    color: #DECBA4;
+    font-size: 30PX;
+
+}
+.button{
+    display: grid;
+    border-bottom: 1px solid cadetblue;
+    border-left: 1px solid cadetblue;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button > div{
+    border-top: 1px solid cadetblue;
+    border-right: 1px solid cadetblue;
+}
+.buttons{
+    border:0.5px solid antiquewhite;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#eq{
+    background-color:#4f6c6c;
+    color:#DECBA4;
+    font-weight: bold;
+}
+.buttons:hover{
+    background-color:#4f6c6c;
+    color:#DECBA4;
+    transition: 0.5s ease-in-out;
+}
+#eq.buttons:hover{
+    background-color:#3E5151;
+    color:beige;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
+#cal{
+    background-color:#4f6c6c;
+    font-weight: bold;
+    color: #DECBA4;
+}
+#cal.buttons:hover{
+    background-color:#3E5151;
+    color:beige;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
+#del{
+    background-color:#4f6c6c;
+    color:#DECBA4;
+    font-weight: bold;
+}
+#del.buttons:hover{
+    background-color:#3E5151;
+    color:beige;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
